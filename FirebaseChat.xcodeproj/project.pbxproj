@@ -18,6 +18,7 @@
 		5A43972A24999F9E00870FB2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972924999F9E00870FB2 /* Message.swift */; };
 		5A43972C2499A4EA00870FB2 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972B2499A4EA00870FB2 /* MessagesController.swift */; };
 		5A43972E2499BD7600870FB2 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972D2499BD7600870FB2 /* ChatRoom.swift */; };
+		5A4397302499C12B00870FB2 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972F2499C12B00870FB2 /* MessageDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		5A43972924999F9E00870FB2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		5A43972B2499A4EA00870FB2 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		5A43972D2499BD7600870FB2 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		5A43972F2499C12B00870FB2 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
 		67D83D7E46A83748CFC7482D /* Pods_FirebaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				5A439713249997A500870FB2 /* SceneDelegate.swift */,
 				5A439717249997A500870FB2 /* Main.storyboard */,
 				5A43972724999B2B00870FB2 /* ChatRoomsTableViewController.swift */,
+				5A43972F2499C12B00870FB2 /* MessageDetailViewController.swift */,
 				5A43972B2499A4EA00870FB2 /* MessagesController.swift */,
 				5A43972924999F9E00870FB2 /* Message.swift */,
 				5A43972D2499BD7600870FB2 /* ChatRoom.swift */,
@@ -223,6 +226,7 @@
 				5A43972C2499A4EA00870FB2 /* MessagesController.swift in Sources */,
 				5A439712249997A500870FB2 /* AppDelegate.swift in Sources */,
 				5A43972A24999F9E00870FB2 /* Message.swift in Sources */,
+				5A4397302499C12B00870FB2 /* MessageDetailViewController.swift in Sources */,
 				5A439714249997A500870FB2 /* SceneDelegate.swift in Sources */,
 				5A43972824999B2B00870FB2 /* ChatRoomsTableViewController.swift in Sources */,
 			);
