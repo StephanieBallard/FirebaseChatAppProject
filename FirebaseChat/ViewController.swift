@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import MessageKit
+import Pods_FirebaseChat
 
 class ViewController: UIViewController {
 
