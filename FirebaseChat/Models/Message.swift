@@ -10,19 +10,24 @@ import Foundation
 import Firebase
 import MessageKit
 
-struct Message: MessageType {
-    var kind: MessageKind
+class Message: Decodable, MessageType, Equatable {
+    
+    var text: String
     var sender: SenderType
     var messageId: String
     var sentDate: Date
+    
+    var kind: Decodable, MessageKind {
+        return .text(text)
+    }
+
 }
 
-struct Sender: SenderType {
-    var senderId: String
+struct Sender: Codable, SenderType {
+    var senderId: String {
+        return UUID().uuidString
+    }
     var displayName: String
 }
 
-//struct Kind: Codable, MessageKind {
-//    var text: String
-//    var emoji: String
-//}
+
