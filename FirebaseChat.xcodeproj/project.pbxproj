@@ -16,6 +16,8 @@
 		5A439726249998DE00870FB2 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A439725249998DE00870FB2 /* GoogleService-Info-3.plist */; };
 		5A43972824999B2B00870FB2 /* ChatRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972724999B2B00870FB2 /* ChatRoomsTableViewController.swift */; };
 		5A43972A24999F9E00870FB2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972924999F9E00870FB2 /* Message.swift */; };
+		5A43972C2499A4EA00870FB2 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972B2499A4EA00870FB2 /* MessagesController.swift */; };
+		5A43972E2499BD7600870FB2 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43972D2499BD7600870FB2 /* ChatRoom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		5A439725249998DE00870FB2 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
 		5A43972724999B2B00870FB2 /* ChatRoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsTableViewController.swift; sourceTree = "<group>"; };
 		5A43972924999F9E00870FB2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5A43972B2499A4EA00870FB2 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		5A43972D2499BD7600870FB2 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		67D83D7E46A83748CFC7482D /* Pods_FirebaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,7 +83,9 @@
 				5A439713249997A500870FB2 /* SceneDelegate.swift */,
 				5A439717249997A500870FB2 /* Main.storyboard */,
 				5A43972724999B2B00870FB2 /* ChatRoomsTableViewController.swift */,
+				5A43972B2499A4EA00870FB2 /* MessagesController.swift */,
 				5A43972924999F9E00870FB2 /* Message.swift */,
+				5A43972D2499BD7600870FB2 /* ChatRoom.swift */,
 				5A43971A249997A700870FB2 /* Assets.xcassets */,
 				5A43971C249997A700870FB2 /* LaunchScreen.storyboard */,
 				5A439725249998DE00870FB2 /* GoogleService-Info-3.plist */,
@@ -213,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A43972E2499BD7600870FB2 /* ChatRoom.swift in Sources */,
+				5A43972C2499A4EA00870FB2 /* MessagesController.swift in Sources */,
 				5A439712249997A500870FB2 /* AppDelegate.swift in Sources */,
 				5A43972A24999F9E00870FB2 /* Message.swift in Sources */,
 				5A439714249997A500870FB2 /* SceneDelegate.swift in Sources */,
