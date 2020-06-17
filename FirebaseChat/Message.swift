@@ -24,4 +24,5 @@ struct Sender: SenderType {
 
 //struct Kind: Codable, MessageKind {
 //    var text: String
+//    var emoji: String
 //}

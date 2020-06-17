@@ -10,7 +10,13 @@ import Foundation
 import Firebase
 import FirebaseDatabase
 
-struct ChatRoom {
-
+class ChatRoom {
+    
+    var ref: DatabaseReference!
+    
+    init() {
+        self.ref = Database.database().reference()
+    }
+    
     
 }
