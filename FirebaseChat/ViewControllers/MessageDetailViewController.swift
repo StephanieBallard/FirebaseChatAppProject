@@ -12,6 +12,9 @@ import InputBarAccessoryView
 
 class MessageDetailViewController: MessagesViewController, InputBarAccessoryViewDelegate {
     
+    var message: Message?
+    var messageController: MessageController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,7 +24,7 @@ class MessageDetailViewController: MessagesViewController, InputBarAccessoryView
     }
     
     func inputBar(_ inputBar: InputBarAccessoryView, didPressSendButtonWith text: String) {
-        <#code#>
+        
     }
 }
 
@@ -35,7 +38,7 @@ extension MessageDetailViewController: MessagesDataSource {
     }
     
     func numberOfSections(in messagesCollectionView: MessagesCollectionView) -> Int {
-        <#code#>
+        return 1
     }
     
     func numberOfItems(inSection section: Int, in messagesCollectionView: MessagesCollectionView) -> Int {

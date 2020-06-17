@@ -81,20 +81,52 @@
 		5A439710249997A500870FB2 /* FirebaseChat */ = {
 			isa = PBXGroup;
 			children = (
-				5A439711249997A500870FB2 /* AppDelegate.swift */,
-				5A439713249997A500870FB2 /* SceneDelegate.swift */,
+				5A4397342499C33C00870FB2 /* Resources */,
 				5A439717249997A500870FB2 /* Main.storyboard */,
-				5A43972724999B2B00870FB2 /* ChatRoomsTableViewController.swift */,
-				5A43972F2499C12B00870FB2 /* MessageDetailViewController.swift */,
-				5A43972B2499A4EA00870FB2 /* MessagesController.swift */,
-				5A43972924999F9E00870FB2 /* Message.swift */,
-				5A43972D2499BD7600870FB2 /* ChatRoom.swift */,
-				5A43971A249997A700870FB2 /* Assets.xcassets */,
-				5A43971C249997A700870FB2 /* LaunchScreen.storyboard */,
-				5A439725249998DE00870FB2 /* GoogleService-Info-3.plist */,
+				5A4397312499C31200870FB2 /* Models */,
+				5A4397332499C32900870FB2 /* ViewControllers */,
+				5A4397322499C31D00870FB2 /* Controller */,
 				5A43971F249997A700870FB2 /* Info.plist */,
 			);
 			path = FirebaseChat;
+			sourceTree = "<group>";
+		};
+		5A4397312499C31200870FB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A43972924999F9E00870FB2 /* Message.swift */,
+				5A43972D2499BD7600870FB2 /* ChatRoom.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A4397322499C31D00870FB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A43972B2499A4EA00870FB2 /* MessagesController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A4397332499C32900870FB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A43972F2499C12B00870FB2 /* MessageDetailViewController.swift */,
+				5A43972724999B2B00870FB2 /* ChatRoomsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5A4397342499C33C00870FB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A439711249997A500870FB2 /* AppDelegate.swift */,
+				5A439713249997A500870FB2 /* SceneDelegate.swift */,
+				5A439725249998DE00870FB2 /* GoogleService-Info-3.plist */,
+				5A43971C249997A700870FB2 /* LaunchScreen.storyboard */,
+				5A43971A249997A700870FB2 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		6673D0D14CC96D8DBC53DAA5 /* Pods */ = {

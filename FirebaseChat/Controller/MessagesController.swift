@@ -12,5 +12,7 @@ import Firebase
 
 class MessageController {
 
+    let baseURL = URL(string: "https://fir-chatappproject-6ded0.firebaseio.com/")!
     var ref = Database.database().reference()
+    var currentUser: Sender?
 }
